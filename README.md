@@ -2,6 +2,26 @@
 
 Este repositório contém a solução do desafio de Engenharia de Dados proposto pela OPEA. O projeto foi estruturado de forma clara e organizada para facilitar entendimento, testes e execução, utilizando Docker e LocalStack para simular serviços da AWS.
 
+## Feedback pessoal
+Primeiramente, gostaria de agradecer pela oportunidade de participar deste desafio.
+Foi apenas a minha segunda experiência conduzindo um processo end-to-end totalmente sozinho fora do ambiente acadêmico — e apesar de bastante desafiador, foi acima de tudo muito divertido e enriquecedor!
+
+Sobre a implementação, alguns pontos importantes:
+
+Não consegui implantar o Delta Lake, então utilizei Parquet para manter o fluxo funcional.
+
+Os testes só consegui executar via Docker, utilizando o módulo pytest. Incluí um print no final do README como evidência da execução bem-sucedida.
+
+Como ainda estou em fase inicial na carreira, preparei também um caminho de execução para AWS, mas não finalizei completamente a solução em Glue. Para evitar qualquer confusão, optei por não incluir essa parte diretamente no repositório.
+
+De toda forma, estou muito satisfeito com o que consegui produzir dentro do meu nível atual e extremamente motivado para continuar evoluindo como Engenheiro de Dados. Obrigado novamente pela oportunidade! 🙌
+
+
+### figura 1 - AWS suspende minha conta por este motivo não implementei aqui neste repositório so códigos para rodar em cloud, mas possuo eles prontos e adaptados 😥
+
+<img width="1788" height="925" alt="image" src="https://github.com/user-attachments/assets/780b17c3-5f3e-4716-8b95-e380785676b0" />
+
+
 ## 🧭 Visão Geral
 
 O projeto implementa um pipeline de dados dividido em três camadas clássicas:
