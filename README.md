@@ -69,3 +69,7 @@ Os arquivos gerados aparecerão em:
 - O projeto usa LocalStack para simular AWS S3/Glue localmente.
 - O uso de Parquet nas camadas STAGE/ANALYTICS foi adotado para manter simplicidade.
 - O arquivo de entrada `data_base/dados_entrada.xlsx` já está incluído.
+
+## Logs dos testes
+
+<img width="1291" height="459" alt="Captura de tela 2025-11-23 174951" src="https://github.com/user-attachments/assets/f39262ce-6126-4fc4-b7b1-c1b5fe551852" />
