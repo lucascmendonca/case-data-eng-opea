@@ -3,11 +3,9 @@ services:
   spark-app:
     build: .
     container_name: spark-pipeline
-    # monta seu código (para desenvolvimento — mudanças locais aparecem sem rebuild)
     volumes:
       - ./:/app
     working_dir: /app
     tty: true
     stdin_open: true
-    # comando padrão (pode sobrescrever com docker compose run)
     command: bash
