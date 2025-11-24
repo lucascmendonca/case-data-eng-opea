@@ -45,7 +45,7 @@ def criar_glue_crawler(
 
     print("Crawler criado com sucesso!")
 
-    # Executar o crawler agora mesmo
+    # Executar o crawler
     print("Executando crawler...")
     glue.start_crawler(Name=crawler_name)
     print("Crawler iniciado.")
