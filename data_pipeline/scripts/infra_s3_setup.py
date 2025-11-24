@@ -22,7 +22,7 @@ def criar_bucket_e_estrutura(bucket_name: str, region: str = "us-east-1"):
 
     print("Criando diretórios obrigatórios...")
 
-    # Lista de diretórios esperados no desafio:
+    # Lista de diretórios
     paths = [
         "raw/clientes/",
         "raw/enderecos/",
